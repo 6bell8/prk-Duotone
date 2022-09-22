@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Duotone" />
+    <meta property="og:description" content="Duotone-remaster!!!." />
+    <meta property="og:image" content="../images/layout/gnb-salmon.d0464d65.png" />
+
+    <title>Duotone</title>
+    <!-- <link
+      rel="shortcut icon"
+      href="../images/layout/favicon.png"
+      type="image/x-icon"
+    /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/splitting.css" />
+    <link rel="stylesheet" href="../css/swiper.min.css" />
+    <link rel="stylesheet" href="../css/fullpage.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/greensock/gsap.min.js"></script>
+    <script src="../js/greensock/CSSRulePlugin.min.js"></script>
+    <script src="../js/greensock/ScrollTrigger.min.js"></script>
+    <!--  :before / :after 애니메이션 할려면 -->
+    <script src="../js/splitting.min.js"></script>
+    <script src="../js/fullpage.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="logo">
+        <a href="">
+          <svg width="140" height="50" xmlns="http://www.w3.org/2000/svg">
+            <!-- <g fill="none" fill-rule="evenodd"> -->
+            <!-- <path d="M0 0H140V40H0z" transform="translate(0 -12)"></path> -->
+            <path
+              d="M125.738
+            28.574H140v-2.963h-14.262v2.963zm-10.551-16.196h3.375v16.196h-3.375l-7.423-10.46v10.46h-3.375V12.378h3.375l7.423
+            10.46v-10.46zm10.551
+            9.58H140v-2.964h-14.262v2.964zm0-6.617H140v-2.964h-14.262v2.964zM90
+            25.469c-2.758 0-4.994-2.235-4.994-4.993 0-2.758 2.236-4.993
+            4.994-4.993 2.758 0 4.993 2.235 4.993 4.993 0 2.758-2.235
+            4.993-4.993 4.993zM90 12c-4.681 0-8.476 3.795-8.476 8.476 0 4.681
+            3.795 8.476 8.476 8.476 4.681 0 8.475-3.795 8.475-8.476C98.475
+            15.795 94.681 12 90 12zM6.113 25.23H3.396v-9.508h2.717c2.625 0 4.753
+            2.128 4.753 4.754 0 2.626-2.128 4.754-4.753
+            4.754zm0-12.904H0v16.3h6.113c4.5 0 8.149-3.649
+            8.149-8.15s-3.649-8.15-8.149-8.15zm25.392 0h3.396v9.169c0
+            3.938-3.193 7.131-7.132 7.131-3.938
+            0-7.131-3.193-7.131-7.131v-9.169h3.396v9.169c0 2.063 1.672 3.735
+            3.735 3.735 2.063 0 3.736-1.672 3.736-3.735v-9.169zm30.879
+            0h14.263v3.396h-5.433v12.904h-3.396V15.722h-5.434v-3.396zM49.035
+            25.469c-2.758 0-4.993-2.235-4.993-4.993 0-2.758 2.235-4.993
+            4.993-4.993 2.758 0 4.993 2.235 4.993 4.993 0 2.758-2.235
+            4.993-4.993 4.993zm0-13.469c-4.681 0-8.476 3.795-8.476 8.476 0 4.681
+            3.795 8.476 8.476 8.476 4.681 0 8.476-3.795 8.476-8.476
+            0-4.681-3.795-8.476-8.476-8.476z"
+              transform="translate(0 -12)"
+            ></path>
+            <!-- </g> -->
+          </svg>
+        </a>
+      </h1>
+      <nav id="gnb">
+        <div class="navImage"></div>
+        <div class="mainList">
+          <ul class="list">
+            <li>
+              <h3>01</h3>
+              <a href="#mainVisual" class="depth01">Intro</a>
+            </li>
+            <li>
+              <h3>02</h3>
+              <a href="#design" class="depth01">Salmons</a>
+            </li>
+            <li>
+              <h3>03</h3>
+              <a href="#mind" class="depth01"> Design</a>
+            </li>
+            <li>
+              <h3>04</h3>
+              <a href="#wave" class="depth01"> Case Study</a>
+            </li>
+            <li>
+              <h3>05</h3>
+              <a href="#salmons" class="depth01"> Openpath</a>
+            </li>
+            <li>
+              <h3>06</h3>
+              <a href="#writing" class="depth01"> Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="subList">
+          <ul class="sns">
+            <a href="">
+              <li>
+                <img src="../images/layout/icon-gnb-behance.317f9ccc.svg" alt="" />
+              </li>
+            </a>
+            <a href="">
+            <li>
+              <img src="../images/layout/icon-gnb-brunch.3baf214f.svg" alt="" />
+            </li>
+          </a>
+          <a href="">
+            <li>
+              <img src="../images/layout/icon-gnb-facebook.fb1a0c99.svg" alt="" />
+            </li>
+          </a>
+         
+            <li>
+              <img src="../images/layout/icon-gnb-instagram.b1cdeb4e.svg" alt="" />
+            </li>
+          </a>
+          <a href="">
+            <li>
+              <img src="../images/layout/icon-gnb-openpath.e06f3818.svg" alt="" />
+            </li>
+          </a>
+          </ul>
+          <ul class="lang">
+            <a href="">
+              <li>KR</li>
+            </a>
+            <a href="">
+              <li class=""><span>EN</span></li>
+            </a>
+          </ul>
+          <ul class="qa">
+            <a href="">
+              <li>프로젝트 의뢰</li>
+            </a>
+            <a href="">
+              <li>채용문의</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+      <button class="btnAll">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <!--header end-->
+    <div id="mainVisual" class="section">
+      <div class="titleBox">
+        <div class="imgBox">
+          <img src="../images/layout/Salmon.jpg" alt="" />
+        </div>
+        <div class="topLogo">
+          <img class="logochar" src="../images/layout/D.png" alt="" />
+          <img class="logochar" src="../images/layout/U.png" alt="" />
+          <img class="logochar" src="../images/layout/O.png" alt="" />
+          <img class="logochar" src="../images/layout/T.png" alt="" />
+          <img class="logochar" src="../images/layout/O.png" alt="" />
+          <img class="logochar" src="../images/layout/N.png" alt="" />
+          <img class="logochar" src="../images/layout/E.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!--mainVisual end-->
+    <div id="design" class="section design">
+      <div class="txtBox">
+        <p data-splitting>Duotone is a product design agency, specialized in also creating the visionary strategy, process and design system for the products.</p>
+      </div>
+      <div class="arrow">
+        <img src="../images/layout/btn-top-visual-down.a1d12e61.svg" alt="" />
+      </div>
+    </div>
+    <div id="mind" class="section">
+      <div class="mindBox">
+        <h2 class="num">01</h2>
+        <p class="mindTxt">
+          우리가 일을 대하는 방식은 파도를 닮았습니다.<br />
+          세상에 같은 파도는 없습니다. 그래서 우리는 늘 고민합니다.<br />
+          어떻게 해야 이번 파도를 넘을 수 있을지 그 과정에서 배운<br />
+          지식과 경험을 어떻게 나눌 수 있을지 어떻게 해야 다음 파도를<br />
+          넘을 수 있도록 성장할 수 있을지 for the next wave는<br />
+          다음 파도를 준비하는, 오늘에서 내일로 나아가는 듀오톤의<br />
+          마음가짐입니다.
+        </p>
+      </div>
+    </div>
+    <div id="wave" class="section">
+      <div class="waveBox">
+        <p class="waveTxt coverTxt">for the</p>
+        <div class="waveBg">
+          <p class="waveTxt waveTxt01">for the</p>
+          <p class="waveTxt waveTxt02">next</p>
+          <p class="waveTxt waveTxt03">wave</p>
+        </div>
+      </div>
+    </div>
+    <div id="salmons" class="section">
+      <div class="salmonsBox">
+        <h2 class="num">02</h2>
+        <p class="salmonsTitle">
+          we are<br />
+          salmons
+        </p>
+      </div>
+      <div class="salmonsBox02">
+        <div class="salmonsSection salmonsSection01">
+          <p class="salmonsTxt">
+            우리는 스스로를 연어라고 부릅니다.<br />
+            강에서 바다로 나아가고, <br />다시 바다에서 강으로 돌아오는, 높은 파도를 헤치고,<br />
+            다시 새로운 파도와 세상으로 나아가는, 함께 도전하고,<br />성장하는 일생을 사는 연어의 태도를 가졌습니다.
+          </p>
+          <div class="salmonsImg">
+            <img src="../images/layout/icon-salmons-1.0df9f09f.svg" alt="" />
+          </div>
+        </div>
+        <div class="salmonsSection salmonsSection02">
+          <div class="salmonsImg">
+            <img src="../images/layout/icon-salmons-2.2e5a2a78.svg" alt="" />
+          </div>
+          <p class="salmonsTxt02">
+            우리는 문제를 해결하는 사람들입니다. <br />우리가 가는 길은 생각처럼 평탄하지는 않습니다. <br />잠잠할 때도 있지만, 위아래로 요동칠 때도 있습니다. <br />그래도 우리는 이러한 변화에 맞춰
+            우리의 일을 합니다. 그렇게 어제에서 오늘, 오늘에서 내일로 나아갑니다.
+          </p>
+        </div>
+        <div class="salmonsSection salmonsSection03">
+          <p class="salmonsTxt">
+            우리는 눈에 보이고,<br />
+            손으로 만질 수 있는 무언가를 만듭니다. <br />그러나 우리 일은 보이지 않고,<br />
+            손으로 만져지지 않는 곳에서 시작합니다. <br />우리는 어떤 새롭고, 어려운 문제도, <br />단단한 방법론으로 접근합니다.<br />
+            모든 것을 의심하고, 질문하고, 분석하고,<br />
+            배움을 나누며 길을 밝혀 나갑니다.
+          </p>
+          <div class="salmonsImg">
+            <img src="../images/layout/icon-salmons-3.bb916fb4.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="dots">
+        <img src="../images/layout/figure-dots.701a1a44.svg" alt="" />
+      </div>
+    </div>
+    <div id="writing" class="section">
+      <div class="bgImg">
+        <img src="../images/layout/figure-writing.88313bd5.jpg" alt="" />
+      </div>
+      <div class="writingTxt">
+        <p data-splitting>
+          We define the real problem by building empathy towards the users and creating a solid framework. Our design process is transparent. We dare to raise questions, share thoughts, and learn from
+          giving and receiving feedback. As a result, we deliver a systematic, balanced and scalable design system
+        </p>
+      </div>
+    </div>
+    <div id="methods" class="section">
+      <div class="methodsBox">
+        <h2 class="num">03</h2>
+        <p class="methodsTitle">
+          design<br />
+          methods
+        </p>
+      </div>
+      <div class="methodsTxt">
+        <p>
+          듀오톤의 프로젝트는 WHY라는 질문으로 시작합니다.<br />
+          문제의 본질을 고민하고 왜 이 프로젝트를 해야 하는지, <br />누구에게 전해야 하는지, 무엇을 말해야 하는지를 정의합니다.
+        </p>
+      </div>
+      <div class="figureWave">
+        <img src="../images/layout/figure-wave.4fac4124.png" alt="" />
+      </div>
+      <div class="figureList">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <div class="figureTxt">
+              <h3>Gather inspiration</h3>
+              <p>사용자와의 모든 접점을 통해 수집한 데이터를 다각도에서 분석하여 사용자와 고객이 원하는 교차점을 발굴해냅니다.</p>
+            </div>
+            <div class="figureImg">
+              <img src="../images/layout/icon-wave-inspiration.a336ffa0.svg" alt="" />
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="figureTxt">
+              <h3>Generate ideas</h3>
+              <p>아이디어에는 제한을 두지 않습니다. 새로운 관점에서 발견한 가치를 다시 해석하는 과정에서 거침없는 원석의 아이디어들을 얻습니다.</p>
+            </div>
+            <div class="figureImg">
+              <img src="../images/layout/icon-wave-idea.febf3cb7.svg" alt="" />
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="figureTxt">
+              <h3>Make ideas tangible</h3>
+              <p>아이디어들은 점차 형태를 갖추고 생각과 가치들은 구체화되며, 논리적인 흐름을 가지고 체계화 된 컨셉의 형태로 완성됩니다.</p>
+            </div>
+            <div class="figureImg">
+              <img src="../images/layout/icon-wave-tangible.9affb946.svg" alt="" />
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="figureTxt">
+              <h3>Share the story</h3>
+              <p>스토리는 컨셉에 생명을 불어 넣습니다. 기술이 아닌, 가치를 전달할 수 있도록 공감할 수 있고 경험할 수 있는 이야기를 선사합니다.</p>
+            </div>
+            <div class="figureImg">
+              <img src="../images/layout/icon-wave-story.6bb333ed.svg" alt="" />
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="pagination"></div>
+    </div>
+    <div id="workSpace" class="section" >
+      <div class="worksBox">
+        <h2 class="num">04</h2>
+        <p class="workSpaceTitle">
+          Project
+        </p>
+      </div>
+     
+      <div class="works">
+        <ul>
+          <li>
+            <div class="workItem" style="background-image:url(../images/layout/20210913162202.png)"></div> 
+            <a href="" class="workImg"><img src="../images/layout/icon-outerlink.07fa09ab.svg" alt=""></a>
+            <div class="partnerLogo partnerLogo01"></div>
+          </li>
+          <li>
+            <div class="workItem" style="background-image:url(../images/layout/20210913114129.png)"></div> 
+            <a href="" class="workImg"><img src="../images/layout/icon-outerlink.07fa09ab.svg" alt=""></a>
+            <div class="partnerLogo partnerLogo02"></div>
+          </li>
+          <li>
+            <div class="workItem" style="background-image:url(../images/layout/20201203110214.jpg)"></div> 
+            <a href="" class="workImg"><img src="../images/layout/icon-outerlink.07fa09ab.svg" alt=""></a>
+            <div class="partnerLogo partnerLogo03"></div>
+          </li>
+          <li>
+            <div class="workItem" style="background-image:url(../images/layout/20210913113939.png)"></div> 
+            <a href="" class="workImg"><img src="../images/layout/icon-outerlink.07fa09ab.svg" alt=""></a>
+            <div class="partnerLogo partnerLogo04"></div>
+          </li>
+          <li>
+            <div class="workItem" style="background-image:url(../images/layout/20200320001008.jpg)"></div> 
+            <a href="" class="workImg"><img src="../images/layout/icon-outerlink.07fa09ab.svg" alt=""></a>
+            <div class="partnerLogo partnerLogo05"></div>
+          </li>
+          <li>
+            <div class="workItem" style="background-image:url(../images/layout/20210913151922.png)"></div> 
+            <a href="" class="workImg"><img src="../images/layout/icon-outerlink.07fa09ab.svg" alt=""></a>
+            <div class="partnerLogo partnerLogo06"></div>
+          </li>
+        </ul>
+        <div class="project">
+          <button><a href=""><span>All Project</span><img src="../images/layout/icon-plus.8988a6e0.svg" ></button></a>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="section fp-auto-height">
+      <div class="footerSns">
+        <ul>
+          <li>
+            <a href=""><img src="../images/layout/icon-contact-behance.12d37fe9.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="../images/layout/icon-contact-brunch.5ff72e51.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="../images/layout/icon-contact-facebook.80089efa.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""> <img src="../images/layout/icon-contact-instagram.f8643374.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""></a> <img src="../images/layout/icon-contact-openpath.d0b43346.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="address">
+        <p class="privacy">
+          서울특별시 강남구 학동로77길 24, 1층<br />
+          +82 2 547 5679<br />
+          <a href="">salmon@duotone.io</a>
+        </p>
+      </div>
+      <p class="copyright">Duotone. All rights reserved.</p>
+    </footer>
+    <script>
+      Splitting();
+      gsap.defaults({
+        duration: 1,
+        ease: "power4",
+      });
+
+      let header = $("#header");
+      const btnAll = $(".btnAll");
+      const depth01 = $("#gnb  li");
+
+      btnAll.on("click", function () {
+        header.toggleClass("open");
+        depth01.removeClass("on");
+        const gnbTL = gsap.timeline();
+        const subTL = gsap.timeline();
+        gnbTL.to("#gnb .mainList", {
+          opacity: 1,
+          ease: "power4",
+          duration: 4,
+        });
+        subTL.to("#gnb .subList", {
+          opacity: 1,
+          ease: "power4",
+          duration: 4,
+        });
+      });
+
+      depth01.on("click", function () {
+        const idx = $(this).index();
+        header.removeClass("open");
+        $(this).addClass("on").siblings().removeClass("on");
+        eq(idx).show().siblings().hide();
+        //loadMap({addrArray[idx]});
+        return false;
+      });
+
+      const duoTL = gsap.timeline();
+      duoTL.to("#mainVisual .titleBox .topLogo img", {
+        opacity: 1,
+        ease: "power4",
+        stagger: {
+          from: "random",
+          each: 0.15,
+        },
+      });
+      const salTL = gsap.timeline();
+      salTL.to("#mainVisual .imgBox img", {
+        opacity: 1,
+        ease: "power4",
+        delay: 1.5,
+      });
+
+      salTL.from("#mainVisual .imgBox img", {
+        start: "top top",
+        end: "bottom top",
+        scrollTrigger: {
+          trigger: "#mainVisual",
+          scrub: true,
+          pin: true,
+          // pin: true, // 빼면 자동재생
+          // start: "top top",
+          // end: "bottom+=200 top",
+        },
+      });
+
+      const designTxt = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#design",
+          scrub: 1, // 빼면 자동재생
+          // pin: true, // 빼면 자동재생
+          // start: "top top",
+          // end: "bottom+=200 top",
+        },
+      });
+      designTxt.to("#design .txtBox p .char", {
+        ease: "power4",
+        duration: 3,
+        opacity: 1,
+        stagger: {
+          from: "random",
+          amount: 0.5,
+          stagger: { each: 0.1 },
+        },
+      });
+
+      const arrowTL = gsap.timeline();
+      arrowTL.to("#design .arrow img", {
+        opacity: 1,
+        ease: "power4",
+        duration: 6,
+        scrollTrigger: {
+          trigger: "#design .arrow",
+        },
+      });
+
+      const numTL = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#mind",
+          scrub: 1,
+        },
+      });
+      numTL.to("#mind .mindBox .num", {
+        opacity: 1,
+        duration: 5,
+      });
+
+      const mindTL = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#mind",
+          scrub: 1,
+        },
+      });
+      mindTL.to("#mind .mindBox .mindTxt", {
+        opacity: 1,
+        duration: 5,
+        delay: 3,
+      });
+
+      const waveTL = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#wave",
+          scrub: 1,
+        },
+      });
+      waveTL.from("#wave .waveBox .waveTxt", {
+        opacity: 0,
+        y: -150,
+      });
+
+      const salmonsTL = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#salmons .salmonsBox",
+          scrub: 1,
+          // start: "top-=1000 top",
+          end: "bottom bottom",
+        },
+      });
+      salmonsTL
+        .to("#salmons .salmonsBox .num", {
+          opacity: 1,
+          x: 100,
+        })
+        .to("#salmons .salmonsBox p", {
+          opacity: 1,
+          delay: 0.5,
+        });
+
+      const salmons02TL = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#salmons .salmonsBox02",
+          scrub: 1,
+          start: "top-=200 top",
+          end: "bottom bottom",
+        },
+      });
+      salmons02TL
+        .to("#salmons .salmonsSection01", {
+          opacity: 1,
+          y: 100,
+        })
+        .to("#salmons .salmonsSection02", {
+          opacity: 1,
+          y: 100,
+          delay: 0.5,
+        })
+        .to("#salmons .salmonsSection", {
+          opacity: 1,
+          delay: 1,
+        });
+
+      const writingTL = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#writing",
+          start: "top  bottom ",
+          end: "bottom -300% bottom",
+          pin: true,
+          scrub: 10,
+        },
+      });
+      writingTL.to("#writing .bgImg ", {
+        opacity: 1,
+      });
+      writingTL.to("#writing .writingTxt .char ", {
+        opacity: 1,
+        stagger: {
+          from: "random",
+          each: 0.001,
+          duration: 0.1,
+        },
+      });
+      writingTL.to("#writing ", {
+        duration: 7,
+      });
+
+      const methodsTL = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#methods",
+          start: "top bottom",
+          end: "bottom  bottom",
+          // markers: {
+          //   startColor: "#ff0000",
+          //   endColor: "#0000ff",
+          //   fontSize: "20px",
+          //   indent: 50,
+          // },
+        },
+      });
+      methodsTL
+        .to("#methods .num ", {
+          opacity: 1,
+        })
+        .to("#methods .methodsTitle ", {
+          opacity: 1,
+          x: 100,
+        })
+        .to("#methods .methodsTxt ", {
+          opacity: 1,
+          x: 100,
+        })
+        .to("#methods", {});
+
+      new Swiper("#methods .figureList", {
+        slidesPerView: "auto",
+        spaceBetween: 300,
+        centeredSlides: true,
+        loop: true,
+        mousewheel: true,
+        pagination: {
+          el: "#methods .pagination",
+          type: "bullets",
+          clickable: true,
+        },
+      });
+
+      depth01.on("click", function (e) {
+        $(this).parent().siblings().removeClass("on");
+        return false;
+      });
+
+      $(window).on("resize", function () {
+        const w = $(window).outerWidth();
+        if (w <= 1200) {
+          header.addClass("mobile");
+        } else {
+          header.removeClass("mobile open");
+          depth02.removeAttr("style");
+        }
+      });
+
+      const worksTL = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#workSpace",
+          scrub: 1,
+          
+        },
+      });
+      worksTL
+      .from("#workSpace .worksBox .num", {
+        opacity: 0,
+        x:-100,
+        duration:3,
+      },1)
+      .from("#workSpace .worksBox .workSpaceTitle", {
+        opacity: 0,
+        x:-100,
+        duration:3,
+
+      },1)
+      .from("#workSpace .works li", {
+        opacity: 0,
+        duration:10,
+        stagger:{
+          each:0.1
+      }
+      })
+      ;
+
+    </script>
+  </body>
+</html>
